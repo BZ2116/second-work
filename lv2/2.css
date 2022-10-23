@@ -1,0 +1,62 @@
+ html,body {
+    width: auto;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100%;
+ }
+ html,body :hover{
+
+  transform: scale(1.1);
+   transition-duration: 0.5s;
+   box-shadow: 10px 10px 10px black;
+ }
+ div {
+  display: flex;
+    background-color: rgb(47, 248, 255);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 550px;
+    width: 540px;
+   border-radius: 15px;
+   position: relative;
+border: green solid 2px;
+
+   
+ }
+
+ .b0 :hover{
+   transform: scale(1.05);
+   transition-duration: 0.5s;
+   box-shadow: 10px 10px 10px black;
+ }
+.b0  {
+  /* margin-top: 300px; */
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column-reverse;
+  /* width: 540px; */
+  align-items:center;
+  margin-bottom: 10px;
+}
+
+.i2 :hover{
+transform: none;
+}
+ .i2 {
+   margin-top:  100px; 
+
+   /* position: relative; */
+   display:flex ;
+   align-self: center;
+   justify-self: center;
+   width: 530px;
+   border-radius: 20px;
+   
+   /* position: absolute; */
+   margin-top: -220px;
+   /* margin-left: -200px; */
+   z-index: 1;
+ }
